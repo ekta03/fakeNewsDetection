@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fakeNewsDetection/de-sales-selenium.iml" filepath="$PROJECT_DIR$/fakeNewsDetection/de-sales-selenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/fakeNewsDetection.iml" filepath="$PROJECT_DIR$/.idea/fakeNewsDetection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fakeNewsDetection/fakeNewsVerification.iml" filepath="$PROJECT_DIR$/fakeNewsDetection/fakeNewsVerification.iml" />
+    </modules>
+  </component>
+</project>
