@@ -40,7 +40,12 @@ Description: As a user i want to extract news details
     And user selects the image to check
     Then user verifies if image of article is trusted
 
+@sanity
   Scenario: user verifies if claims made are true
+
+@sanity
   Scenario: user verifies if the content is not misleading
+
+@sanity
   Scenario: user verifies if quoted sentences are correct
 
