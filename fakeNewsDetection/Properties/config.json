@@ -1,0 +1,136 @@
+{
+	"runMode": "desktopLocal",
+	"userName": "eondeuser",
+	"password": "E6n4e@2s0r",
+	"id": "CH_LARGE",
+	"applicationURL": "https://qa-www.eon.de",
+	"mobileLocal": {
+		"serverURL": "http://127.0.0.1:4723/wd/hub",
+		"webdriverCap": [
+			{
+				"id": "1",
+				"deviceName": "Galaxy Tab",
+				"platformName": "Android",
+				"udid": "fq5152345sdg",
+				"platformVersion": "5.0.2",
+				"browser": "chrome"
+			},
+			{
+				"id": "2",
+				"deviceName": "Iphone 6",
+				"platformName": "IOS",
+				"udid": "52345234523525234523452",
+				"platformVersion": "10.0.1",
+				"browser": "safari"
+			}
+		]
+	},
+	"mobileTestObject": {
+		"serverURL": "http://appium.testobject.com/wd/hub",
+		"testobject_api_key": "2312ADAEBEFB4D9E94A51B4CA0BD7713",
+		"testobject_appium_version": "1.6.3",
+		"webdriverCap": [
+			{
+				"id": "1",
+				"testobject_device": "LG_Nexus_4_E960_real"
+			},
+			{
+				"id": "2",
+				"testobject_device": "Galaxy_S7_real"
+			}
+		]
+	},
+	"desktopLocal": {
+		"serverURL": "http://127.0.0.1:4444/wd/hub",
+		"chromeOptions": "--lang=en_EN",
+		"webdriverCap": [
+			{
+				"id": "FF_LARGE",
+				"viewPort": "LARGE",
+				"browser": "firefox",
+				"lang": "",
+				"width": "1216",
+				"height": "900"
+			},
+			{
+				"id": "FF_MEDIUM",
+				"viewPort": "MEDIUM",
+				"browser": "firefox",
+				"lang": "",
+				"width": "1008",
+				"height": "900"
+			},
+			{
+				"id": "FF_SMALL",
+				"viewPort": "SMALL",
+				"browser": "firefox",
+				"lang": "",
+				"width": "784",
+				"height": "900"
+			},
+			{
+				"id": "FF_XSMALL",
+				"viewPort": "XSMALL",
+				"browser": "firefox",
+				"width": "336",
+				"height": "900"
+			},
+			{
+				"id": "CH_LARGE",
+				"viewPort": "LARGE",
+				"browser": "chrome",
+				"width": "1216",
+				"height": "900"
+			},
+			{
+				"id": "CH_MEDIUM",
+				"viewPort": "MEDIUM",
+				"browser": "chrome",
+				"width": "1008",
+				"height": "900"
+			},
+			{
+				"id": "CH_SMALL",
+				"viewPort": "SMALL",
+				"browser": "chrome",
+				"width": "784",
+				"height": "900"
+			},
+			{
+				"id": "CH_XSMALL",
+				"viewPort": "XSMALL",
+				"browser": "chrome",
+				"width": "336",
+				"height": "900"
+			},
+			{
+				"id": "IE_LARGE",
+				"viewPort": "LARGE",
+				"browser": "iexplore",
+				"width": "1216",
+				"height": "900"
+			},
+			{
+				"id": "IE_MEDIUM",
+				"viewPort": "MEDIUM",
+				"browser": "iexplore",
+				"width": "1008",
+				"height": "900"
+			},
+			{
+				"id": "IE_SMALL",
+				"viewPort": "SMALL",
+				"browser": "iexplore",
+				"width": "784",
+				"height": "900"
+			},
+			{
+				"id": "IE_XSMALL",
+				"viewPort": "XSMALL",
+				"browser": "iexplore",
+				"width": "336",
+				"height": "900"
+			}
+		]
+	}
+}

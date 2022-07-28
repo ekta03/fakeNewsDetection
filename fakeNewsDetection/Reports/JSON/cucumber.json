@@ -1,0 +1,87 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8000974500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforestartUp(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User wants to login",
+        "description": "User stories - XYZ",
+        "id": "user-login-to-page;user-wants-to-login",
+        "after": [
+          {
+            "result": {
+              "duration": 940914417,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32714258125,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter url \"https://navi.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://navi.com",
+                  "offset": 16
+                }
+              ],
+              "location": "SampleUI.navigateToUrl(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131275458,
+              "error_message": "org.junit.ComparisonFailure: Title returned is incorrect expected:\u003c[Navi App: Apply for Loans, Invest in Mutual Funds \u0026 Buy a Comprehensive Health Insurance Policy]\u003e but was:\u003c[ABC]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat com.sales.stepdefs.SampleUI.getTitle(SampleUI.java:28)\n\tat ✽.Then verify title of the page(SampleUI.feature:9)\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "verify title of the page",
+            "match": {
+              "location": "SampleUI.getTitle()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@navi"
+          }
+        ]
+      }
+    ],
+    "name": "User login to page",
+    "description": "Description: As a user",
+    "id": "user-login-to-page",
+    "keyword": "Feature",
+    "uri": "SampleUI.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@navi"
+      }
+    ]
+  }
+]

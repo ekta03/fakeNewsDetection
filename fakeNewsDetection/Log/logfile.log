@@ -1,0 +1,9 @@
+2022-07-28 11:03:28,834 INFO  [log] ************************************************************************************** 
+2022-07-28 11:03:28,835 INFO  [log] $$$$$$$$$$$$$$$$$$$$$ Starting Scenario    user verifies images in the news are valid or not  $$$$$$$$$$$$$$$$$$$$$ 
+2022-07-28 11:03:28,835 INFO  [log] ************************************************************************************** 
+2022-07-28 11:03:32,399 INFO  [log] First Article : Not a bouncy castle: Hadrian’s Wall fort rebuilt in wild colour 
+2022-07-28 11:03:41,466 INFO  [log] switching to the frame with id = [[ChromeDriver: chrome on MAC (05785a8081ba0e9d5d5239648fb6ef39)] -> xpath: //iframe[@title='Iframe title']] 
+2022-07-28 11:03:42,100 INFO  [log] switching to default page content frame 
+2022-07-28 11:03:42,461 INFO  [log] Article found 
+2022-07-28 11:03:46,778 INFO  [log] https://i.guim.co.uk/img/media/411190843930b0cef70498acd3322e409f60d609/0_153_4582_2750/master/4582.jpg?width=620&quality=85&fit=max&s=71ef8a42b4f3170dda2dbbd6f13cf0b6 
+2022-07-28 11:03:48,604 INFO  [log] XXXXXXXXXXXXXXXXXXXXXXX             -END-             XXXXXXXXXXXXXXXXXXXXXX 

@@ -1,0 +1,23 @@
+# Maven
+target/
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+.idea/
+cscs-selenium.iml
+
+# test-output of TestNG:
+test-output/
+
+# test-output of cucumber:
+Reports/JSON/*.json
+Reports/HTML/*.*
+Log/*.log
+
+output/
+
+# Exclude MS temp files from data dir (they might occur if an excel sheet is open for editing)
+data/~*
